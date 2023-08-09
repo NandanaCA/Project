@@ -18,10 +18,10 @@ from tkinter import ttk
 root_window=Tk()
 root_window.withdraw()
 
-enter_button=PhotoImage(file='.icons/enter100_32.png')
-login_button=PhotoImage(file='.icons/login150_48.png')
-search_button=PhotoImage(file='.icons/search100_32.png')
-history_button=PhotoImage(file='.icons/history100_32.png')
+enter_button=PhotoImage(file='./icons/enter100_32.png')
+login_button=PhotoImage(file='./icons/login150_48.png')
+search_button=PhotoImage(file='./icons/search100_32.png')
+history_button=PhotoImage(file='./icons/history100_32.png')
 
 
 def send_message(choice,text=''):
