@@ -4,7 +4,7 @@ import datetime
 
 import mysql
 import mysql.connector 
-conn= mysql.connector.connect(host="localhost", user="root",passwd="22dec2003",database="WeTalk")
+conn= mysql.connector.connect(host="localhost", user="root",passwd="password",database="WeTalk")
 cur=conn.cursor()
 
 hostname=socket.gethostname()
